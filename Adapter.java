@@ -30,7 +30,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder>{
     @Override
     public void onBindViewHolder(Adapter.ViewHolder holder, int position) {
         Food food = foods.get(position);
-        holder.pictView.setImageResource(food.getFlagResource());
+        holder.pictView.setImageResource(food.getPicture());
         holder.nameView.setText(food.getName());
     }
 

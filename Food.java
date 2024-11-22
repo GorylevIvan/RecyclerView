@@ -3,10 +3,10 @@ package com.example.recyclerview;
 public class Food {
     private String name;
     private int picture;
-    public Food(String name, int flag){
+    public Food(String name, int picture){
 
         this.name=name;
-        this.picture=flag;
+        this.picture=picture;
     }
     public String getName() {
         return this.name;
@@ -16,11 +16,11 @@ public class Food {
         this.name = name;
     }
 
-    public int getFlagResource() {
+    public int getPicture() {
         return this.picture;
     }
 
-    public void setFlagResource(int flagResource) {
-        this.picture = flagResource;
+    public void setPicture(int picture) {
+        this.picture = picture;
     }
 }
